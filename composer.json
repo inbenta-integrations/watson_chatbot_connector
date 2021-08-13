@@ -1,0 +1,17 @@
+{
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:inbenta-integrations/chatbot_api_connector.git"
+    }],
+    "require": {
+        "inbenta/chatbot-api-connector": "1.3.8",
+        "php": "^7.3.0",
+        "ralouphie/getallheaders": "^3.0",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inbenta\\WatsonConnector\\": "lib/WatsonConnector"
+        }
+    }
+}
